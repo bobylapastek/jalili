@@ -1,0 +1,26 @@
+<html>
+  <head>
+    <title>Connexion page</title>
+  </head>
+  <body>
+    <h2>This is the connexion page</h2>
+    
+    <form action="test.php" method="get">
+      <div>
+        <label for="lbl-username">Enter your email address: </label>
+        <input type="email" name="username" id="username" required>
+      </div>
+      <div>
+        <label for="lbl-password">Enter your name: </label>
+        <input type="text" name="password" id="password" required>
+      </div>
+      <div>
+        <input type="submit" value="Connexion">
+      </div>
+    </form>
+    
+    <!-- As a remember, the credentials :-->
+    <!-- Username : dsilqj@sdds684.fr -->
+    <!-- Password : p}6Qe8@FX?4MKru6 -->
+  </body>
+</html>
